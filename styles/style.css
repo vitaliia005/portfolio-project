@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #f6b1a4;
+  --primary-color: #e7c5be;
   --secondary-color: #fad9d9;
   --hover-color: rgb(205, 126, 126);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -48,6 +48,7 @@ p {
 
 .contact-link:hover {
   color: var(--hover-color);
+  font-size: larger;
 }
 
 .about-link {
@@ -98,4 +99,35 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+}
+
+.socials {
+  display: block;
+  margin: 0 auto;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.socials {
+  text-align: center;
+  font-size: small;
+}
+.fa-envelope,
+.fa-twitter,
+.fa-github,
+.github:hover,
+.twitter:hover,
+.email:hover {
+  color: var(--hover-color);
+  font-size: larger;
+}
+
+.fa-envelope,
+.fa-twitter,
+.fa-github,
+.github,
+.twitter,
+.email {
+  color: #f6b1a4;
 }
