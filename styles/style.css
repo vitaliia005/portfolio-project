@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #e7c5be;
-  --secondary-color: #fad9d9;
-  --hover-color: rgb(205, 126, 126);
+  --primary-color: #ffcbcb;
+  --secondary-color: #a6cbdd;
+  --hover-color: #ffb5b5;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 .space {
@@ -49,6 +49,7 @@ p {
 .contact-link:hover {
   color: var(--hover-color);
   font-size: larger;
+  transition: all 100ms ease-in-out;
 }
 
 .about-link {
@@ -58,6 +59,7 @@ p {
 
 .about-link:hover {
   color: var(--hover-color);
+  transition: all 100ms ease-in-out;
 }
 
 .homepage-link {
@@ -85,6 +87,7 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+  transition: all 100ms ease-in-out;
 }
 
 .navigation-links {
@@ -121,6 +124,7 @@ p {
 .email:hover {
   color: var(--hover-color);
   font-size: larger;
+  transition: all 100ms ease-in-out;
 }
 
 .fa-envelope,
@@ -129,5 +133,7 @@ p {
 .github,
 .twitter,
 .email {
-  color: #f6b1a4;
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-size: large;
 }
